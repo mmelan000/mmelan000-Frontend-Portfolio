@@ -1,0 +1,85 @@
+:root {
+    --lightgrey: #282C34;
+    --darkgrey: #21252B;
+    --offwhite: #F0F0F0;
+    --offgrey: #F1F1F1;
+    --red: #C24034;
+    --green: #98A64A;
+    --white: #FFFFFF;
+    --sidebar: 10%;
+}
+
+body {
+    font-family: monospace;
+    font-size: 16px;
+    background-color: var(--lightgrey);
+    color: var(--offgrey);
+  }
+  
+  span {
+      color: var(--red);
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: var(--sidebar);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--darkgrey);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  nav a {
+    align-items: stretch;
+    column-gap: 10px;
+    padding: 15px;
+    text-decoration: none;
+    color: var(--offwhite);
+    display: block;
+  }
+ 
+  nav a:hover {
+    color: #f1f1f1;
+  }
+  header {
+    text-align: center;
+    font-size: 200%;
+    color: var(--white);
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  header img {
+    position: absolute;
+  }
+
+  main {
+    margin-top: 30px;
+    margin-left: var(--sidebar);
+    padding: 0px 10px;
+  }
+
+  section p{
+    padding: 2px;
+    margin-left: 30px;
+  }
+
+  h2 {
+      padding: 20px;
+      font-size: 150%;
+  }
+  
+  @media screen and (max-width: 480px) {
+  :root {
+      --sidebar: 25%;
+  }
+  }
