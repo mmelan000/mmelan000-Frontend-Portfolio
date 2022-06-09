@@ -52,7 +52,7 @@ nav a:hover {
 
 #logo {
 z-index: 3;
-position: absolute;
+position: fixed;
 width: var(--sidebar);
 max-width: 180px;
 max-height: 180px;
