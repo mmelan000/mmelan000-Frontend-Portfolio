@@ -6,14 +6,41 @@
   --red: #E06A69;
   --green: #98C36E;
   --white: #FFFFFF;
-  --sidebar: 10%;
+  --orange: #D19A66;
+  --sidebar: 180px;
+  --sidebar-font-size: 100%;
+  --pxradius: 20px;
+  --font-size: 20px;
+  --cardheader: 70%;
 }
 
 body {
   font-family: monospace;
-  font-size: 16px;
+  font-size: var(--font-size);
   background-color: var(--lightgrey);
   color: var(--offgrey);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: var(--sidebar);
+  padding: 2%;
+}
+
+h2, h3, h4 {
+  font-size: 150%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+p {
+  margin: 8px;
 }
   
 span {
@@ -22,6 +49,7 @@ span {
 
 nav {
   display: flex;
+  font-size: var(--sidebar-font-size);
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
@@ -58,55 +86,112 @@ max-width: 180px;
 max-height: 180px;
 }
 
-header {
+#header {
+  margin-left: var(--sidebar);
+  font-size: 225%;
+  color: var(--white);
+  padding: 1%;
   display: flex;
   flex-wrap: wrap;
-  margin-left: var(--sidebar);
+  flex-direction: column;
+}
+
+#About {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.project-cards {
+  flex: 1;
+  background-color: var(--lightgrey);
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 30px;
+  border-style: double;
+  border-width: 6px;
+  border-radius: var(--pxradius);
+  border-color: var(--orange);
+  padding: 10px;
+  flex: 0 0 300px;
+  box-shadow: 5px 5px 2px var(--orange);
   text-align: center;
-  font-size: 200%;
-  color: var(--white);
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
-header img {
-  position: absolute;
+.card > header {
+  font-size: var(--cardheader);
+  position: relative;
+  margin-top: -35px;
+  padding: 10px;
+  border: 6px;
+  background-color: var(--darkgrey);
+  border-radius: var(--pxradius);
+  border-style: solid;
+  border-color: inherit;
 }
 
-main {
-  margin-top: 30px;
-  margin-left: var(--sidebar);
-  padding: 0px 10px;
+.card img {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 90%;
+
 }
 
-h2 {
-  padding: 20px;
-  font-size: 150%;
+.card > p {
+  padding: 25px;
+  border: 2px;
+  background-color: var(--darkgrey);
+  border-style:solid;
+  border-color: inherit;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-h3 {
-  padding: 20px;
-  font-size: 150%;
+#largecard {
+  flex: 0 0 100%;
+  min-width: 300px;
 }
 
-h4 {
-  padding: 20px;
-  font-size: 150%;
+.card:hover {
+  filter: invert(10%);
+  border-color: var(--green);
+  box-shadow: 5px 5px 3px var(--green);
 }
 
-section p{
-  padding: 2px;
-  margin-left: 30px;
+.card:active {
+  filter: invert(10%);
+  border-color: var(--green);
+  box-shadow: 5px 5px 3px var(--green);
+}
+
+.card:focus {
+  border-color: var(--green);
+  box-shadow: 5px 5px 3px var(--green);
+}
+
+@media screen and (max-width: 1080px) {
+  :root {
+    --font-size: 16px;
+    --sidebar-font-size: 95.5%
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --font-size: 14px;
+    --sidebar-font-size: 82.5%
+  }
 }
   
 @media screen and (max-width: 480px) {
   :root {
-    --sidebar: 25%;
-  }
-  nav {
-    font-size: 75%;
+    --font-size: 12px;
+    --sidebar-font-size: 75%
   }
 }
+
