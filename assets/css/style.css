@@ -27,7 +27,7 @@ body {
 main {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  /* flex-direction: column; */
   margin-left: var(--sidebar);
   padding: 2%;
 }
@@ -177,13 +177,16 @@ max-height: 180px;
 @media screen and (max-width: 1080px) {
   :root {
     --font-size: 16px;
+    --sidebar: 150px;
     --sidebar-font-size: 95.5%
-  }
+    
+}
 }
 
 @media screen and (max-width: 768px) {
   :root {
     --font-size: 14px;
+    --sidebar: 120px;
     --sidebar-font-size: 82.5%
   }
 }
@@ -191,6 +194,7 @@ max-height: 180px;
 @media screen and (max-width: 480px) {
   :root {
     --font-size: 12px;
+    --sidebar: 90px;
     --sidebar-font-size: 75%
   }
 }
