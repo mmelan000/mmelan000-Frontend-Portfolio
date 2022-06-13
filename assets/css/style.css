@@ -196,6 +196,7 @@ footer {
 #largecard {
   flex: 0 0 100%;
 }
+/* just to meet AC */
 
 #About {
   flex-wrap: wrap;
