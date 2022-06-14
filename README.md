@@ -36,18 +36,21 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screenshots
 
-TBD
+![App Screenshot](https://ibb.co/C7ZZ57x)
 
 ---
 
 ## Optimizations
 
-TBD
+Content scales depending on Viewport Size
+Desisgned projects that scale based on viewport while also maintaining the AC
+Refactored code after discovering the inherit property and research into the logic behing @media screen.
+
 
 ---
 
 ## Deployment
 
-TBD
+https://mmelan000.github.io/Challenge-02-Advanced-CSS-Portfolio/
 
 ---
