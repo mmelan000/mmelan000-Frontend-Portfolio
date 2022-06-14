@@ -204,6 +204,10 @@ footer {
   flex-direction: row;
 }
 
+a:link, a:visited {
+  color: var(--offwhite);
+}
+
 @media screen and (max-width: 820px) {
   :root {
     --font-size: 14px;
