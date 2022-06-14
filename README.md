@@ -45,7 +45,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 Content scales depending on Viewport Size
 Desisgned projects that scale based on viewport while also maintaining the AC
 Refactored code after discovering the inherit property and research into the logic behing @media screen.
-List of variables in root so that elements can be adjusted on the fly and can adjust root with different viewport sizes instead of rewiting redunant code.
+List of variables in root so that elements can be adjusted on the fly and can adjust root with different viewport sizes instead of rewiting redunant code..c
 
 
 ---
