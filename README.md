@@ -36,7 +36,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screenshots
 
-![App Screenshot](https://ibb.co/C7ZZ57x)
+![App Screenshot](https://i.ibb.co/ncvvsch/my-second-project.jpg)
 
 ---
 
