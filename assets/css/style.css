@@ -125,7 +125,6 @@ footer {
   margin-top: 15px;
   margin-bottom: 10px;
   width: 90%;
-
 }
 
 .card > p {
@@ -253,3 +252,4 @@ a:link, a:visited {
     --font-size: 10px;
  
   }
+}
