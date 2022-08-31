@@ -1,7 +1,10 @@
 
 # Challenge-02-Advanced-CSS-Portfolio
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   
 
-The objective of this assignment is to refactor this website's HTML and CSS to meet the User Story and Acceptance Criteria as follows:
+## Description  
+
+The objective of this challenge is create a portfolio using HTML and CSS:
 
 **User Story**
 ```
@@ -27,31 +30,38 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-
-## Authors
-
-- [@Michael Melanson](https://github.com/mmelan000)
-
----
-
-## Screenshots
-
-![App Screenshot](https://i.ibb.co/ncvvsch/my-second-project.jpg)
-
----
-
-## Optimizations
-
-Content scales depending on Viewport Size
-Desisgned projects that scale based on viewport while also maintaining the AC
-Refactored code after discovering the inherit property and research into the logic being @media screen.
-List of variables in root so that elements can be adjusted on the fly and can adjust root with different viewport sizes instead of rewiting redunant code..c
-
-
----
+## Table of Contents  
+1. [Description](#description)  
+2. [Optimizations](#optimizations)
+3. [Contributing](#contributing)  
+4. [Questions](#questions)  
+5. [License](#license)
 
 ## Deployment
 
-https://mmelan000.github.io/Challenge-02-Advanced-CSS-Portfolio/
+[Deployed Website](https://mmelan000.github.io/mmelan000-Frontend-Portfolio/)
 
----
+![App Screenshot](./assets/images/my-2nd-project.jpg)
+
+## Optimizations
+
+- Content scales depending on Viewport Size.
+- Desisgned projects that scale based on viewport while also maintaining the AC.
+- Refactored code after discovering the inherit property and research into the logic being @media screen.
+- List of variables in root so that elements can be adjusted on the fly and can adjust root with different viewport sizes instead of rewiting redunant code.
+
+## Contributing  
+
+Follow best practices for naming conventions, indentation, quality comments, etc.  
+
+## Questions  
+
+If you have any questions, please reach out to me either on Github or by Email.
+  - **Github:** [mmelan000](https://github.com/mmelan000)
+  - **Email:** [m.melanson000@gmail.com](mailto:m.melanson000@gmail.com)
+
+## License  
+
+- [MIT](https://opensource.org/licenses/MIT)
+
+
