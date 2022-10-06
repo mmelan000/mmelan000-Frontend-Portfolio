@@ -249,7 +249,7 @@ a:link, a:visited {
   
 @media screen and (max-width: 480px) {
   :root {
-    --font-size: 10px;
- 
+    --font-size: 11px;
+    --cardheader: 20px;
   }
 }
